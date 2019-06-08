@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="description" content="189Rotate_Array给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数。 暴力：往右移动k次 123456789int n = nums.size(); //重复多次使用的，设为一个变量k = k % n;while (k--) &amp;#123;    int tmp = nums[n - 1];    for (int i = n - 1; i &amp;gt; 0; ++i)">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2019/06/08/hello-world/index.html">
+<meta property="og:title" content="Corsica&#39;s Horgwarts">
+<meta property="og:url" content="http://yoursite.com/2019/06/08/189Rotate_Array/index.html">
 <meta property="og:site_name" content="Corsica&#39;s Horgwarts">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="189Rotate_Array给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数。 暴力：往右移动k次 123456789int n = nums.size(); //重复多次使用的，设为一个变量k = k % n;while (k--) &amp;#123;    int tmp = nums[n - 1];    for (int i = n - 1; i &amp;gt; 0; ++i)">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-06-08T09:14:54.012Z">
+<meta property="og:updated_time" content="2019-02-11T06:13:24.415Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="Corsica&#39;s Horgwarts">
+<meta name="twitter:description" content="189Rotate_Array给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数。 暴力：往右移动k次 123456789int n = nums.size(); //重复多次使用的，设为一个变量k = k % n;while (k--) &amp;#123;    int tmp = nums[n - 1];    for (int i = n - 1; i &amp;gt; 0; ++i)">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/06/08/hello-world/">
+  <link rel="canonical" href="http://yoursite.com/2019/06/08/189Rotate_Array/">
 
 
 
 
 
-  <title>Hello World | Corsica's Horgwarts</title>
+  <title> | Corsica's Horgwarts</title>
   
 
 
@@ -252,7 +252,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/08/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/08/189Rotate_Array/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Corsica Liu">
@@ -269,7 +269,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline"></h1>
         
 
         <div class="post-meta">
@@ -281,7 +281,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-06-08T17:14:54+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-06-08T17:58:53+08:00">
                 2019-06-08
               </time>
             
@@ -319,19 +319,15 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        <h2 id="189Rotate-Array"><a href="#189Rotate-Array" class="headerlink" title="189Rotate_Array"></a>189Rotate_Array</h2><p>给定一个数组，将数组中的元素向右移动 <em>k</em> 个位置，其中 <em>k</em> 是非负数。</p>
+<p>暴力：往右移动k次</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> n = nums.size(); <span class="comment">//重复多次使用的，设为一个变量</span></span><br><span class="line">k = k % n;</span><br><span class="line"><span class="keyword">while</span> (k--) &#123;</span><br><span class="line">    <span class="keyword">int</span> tmp = nums[n - <span class="number">1</span>];</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = n - <span class="number">1</span>; i &gt; <span class="number">0</span>; ++i) &#123;</span><br><span class="line">        nums[i] = nums[i - <span class="number">1</span>];</span><br><span class="line">    &#125;</span><br><span class="line">    nums[<span class="number">0</span>] = tmp;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//[1, 2, 3, 4, 5, 6, 7], k = 3</span></span><br><span class="line"></span><br><span class="line">reverse(nums.begin(), nums.end());</span><br><span class="line"></span><br><span class="line"><span class="comment">//[7, 6, 5, 4, 3, 2, 1]</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">auto</span> it1 = nums.begin();</span><br><span class="line"><span class="keyword">auto</span> it2 = nums.begin();</span><br><span class="line"><span class="keyword">while</span> (k--) &#123;</span><br><span class="line">	it1++;</span><br><span class="line">    it2++;</span><br><span class="line">&#125;</span><br><span class="line">reverse(nums.begin(), it1);</span><br><span class="line"></span><br><span class="line"><span class="comment">//[5, 6, 7, 4, 3, 2, 1]</span></span><br><span class="line"></span><br><span class="line">reverse(it2, nums.end()); <span class="comment">//iterator 最好只用一次，vector被改变之后，iterator可能指向意料之外的地方</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//[5, 6, 7, 1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>reverse的实现</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">reverse</span><span class="params">(<span class="keyword">int</span> *l, <span class="keyword">int</span> *r)</span> </span>&#123;</span><br><span class="line">    --r;</span><br><span class="line">    <span class="keyword">for</span> (; l &lt; r; ++l, --r) &#123;</span><br><span class="line">        <span class="keyword">int</span> tmp = *l;</span><br><span class="line">        *l = *r;</span><br><span class="line">        *r = tmp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">rotate</span><span class="params">(<span class="keyword">int</span>* nums, <span class="keyword">int</span> numsSize, <span class="keyword">int</span> k)</span> </span>&#123;</span><br><span class="line">    k %= numsSize;</span><br><span class="line">    reverse(nums, nums + numsSize);</span><br><span class="line">    reverse(nums, nums + k);</span><br><span class="line">    reverse(nums + k, nums + numsSize);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
       
     </div>
@@ -356,13 +352,17 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/06/08/136Single_Number/" rel="next" title>
+                <i class="fa fa-chevron-left"></i> 
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/06/08/482License_Key_Formatting/" rel="prev" title>
+              <a href="/2019/06/08/215Kth_Largest_Element_in_an_Array/" rel="prev" title>
                  <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -478,7 +478,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#189Rotate-Array"><span class="nav-number">1.</span> <span class="nav-text">189Rotate_Array</span></a></li></ol></div>
             
 
           </div>
